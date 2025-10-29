@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "outFile": "./bin/index.js",
+    "allowJs": true,
+    "strict": true,
+    "paths": {
+      "@dcl/sdk": ["./node_modules/@dcl/sdk/dist/index.d.ts"]
+    },
+    "baseUrl": ".",
+    "moduleResolution": "node",
+    "module": "AMD",
+    "target": "es2020",
+    "experimentalDecorators": true,
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*.ts"],
+  "extends": "@dcl/sdk/tsconfig.json"
+} 

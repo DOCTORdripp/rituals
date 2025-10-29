@@ -1,0 +1,27 @@
+{
+  "name": "Rituals",
+  "version": "1.0.0",
+  "description": "Burn2Upgrade Wearables by Emm & DOCTORdripp",
+  "scripts": {
+    "start": "sdk-commands start",
+    "build": "sdk-commands build",
+    "deploy": "sdk-commands deploy",
+    "upgrade-sdk": "npm install @dcl/sdk@latest",
+    "upgrade-sdk:next": "npm install @dcl/sdk@next"
+  },
+  "dependencies": {
+    "@dcl/ecs": "7.11.2",
+    "@dcl/js-runtime": "7.11.2",
+    "@dcl/sdk": "7.11.2",
+    "dcl-crypto-toolkit": "^1.0.0",
+    "dcl-npc-toolkit": "^1.5.1",
+    "decentraland-transactions": "^2.22.0"
+  },
+  "devDependencies": {
+    "@dcl/sdk-commands": "^7.11.2"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=6.0.0"
+  }
+}
